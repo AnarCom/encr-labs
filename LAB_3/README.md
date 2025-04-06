@@ -8,3 +8,4 @@
     python.exe .\rc4.py .\rc4.encoded .\output.bin ./output.txt
 ```
 
+![Alt Text](https://github.com/AnarCom/encr-labs/blob/main/LAB_3/demonstation.gif)
