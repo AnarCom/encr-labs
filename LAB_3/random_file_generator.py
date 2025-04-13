@@ -9,7 +9,7 @@ class LCG:
 
     def next_byte(self):
         self.seed = (self.a * self.seed + self.c) % self.m
-        return self.seed & 0xFF  # Младший байт
+        return self.seed & 0xFF
 
 def generate_key(output_file, size, seed):
     lcg = LCG(seed)

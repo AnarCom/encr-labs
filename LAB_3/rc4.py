@@ -6,7 +6,6 @@ class RC4:
         self.S = list(range(256))
         self.i = self.j = 0
 
-        # Инициализация KSA
         j = 0
         for i in range(256):
             j = (j + self.S[i] + key[i % len(key)]) % 256
