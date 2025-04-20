@@ -1,0 +1,1 @@
+![Alt Text](https://github.com/AnarCom/encr-labs/blob/main/LAB_6/LAB_6.gif)
